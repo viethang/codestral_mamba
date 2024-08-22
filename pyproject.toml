@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "codestralmamba"
+version = "0.1.0"
+description = ""
+authors = ["Viet Hang Nguyen <viethangybvn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mistral-inference = "^1.3.1"
+mamba-ssm = "2.2.2"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+gradio = "^4.42.0"
+setuptools = "^73.0.1"
+wheel = "^0.44.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
